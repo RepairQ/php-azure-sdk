@@ -70,6 +70,11 @@ class ServiceBusSettings extends ServiceSettings {
     private $_namespace;
 
     /**
+     * @var mixed
+     */
+    protected $_filter;
+
+    /**
      * Validator for the SharedSecretValue setting. It has to be provided.
      *
      * @var array
